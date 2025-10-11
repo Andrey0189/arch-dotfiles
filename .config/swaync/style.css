@@ -1,0 +1,192 @@
+@define-color base00 #282828; @define-color base01 #3c3836; @define-color base02 #504945; @define-color base03 #665c54;
+@define-color base04 #bdae93; @define-color base05 #d5c4a1; @define-color base06 #ebdbb2; @define-color base07 #fbf1c7;
+
+@define-color base08 #fb4934; @define-color base09 #fe8019; @define-color base0A #fabd2f; @define-color base0B #b8bb26;
+@define-color base0C #8ec07c; @define-color base0D #83a598; @define-color base0E #d3869b; @define-color base0F #d65d0e;
+
+* {
+    font-family: "Noto Sans";
+    font-size: 10pt;
+}
+progress,
+progressbar,
+trough {
+  border: 1px solid @base0D;
+}
+
+trough {
+  background: @base01;
+}
+
+.notification.low,
+.notification.normal {
+  border: 1px solid @base0D;
+}
+
+.notification.low progress,
+.notification.normal progress {
+  background: @base0F;
+}
+
+.notification.critical {
+  border: 1px solid @base08;
+}
+
+.notification.critical progress {
+  background: @base08;
+}
+
+.summary {
+  color: @base05;
+}
+
+.body {
+  color: @base06;
+}
+
+.time {
+  color: @base06;
+}
+
+.notification-action {
+  color: @base05;
+  background: @base01;
+  border: 1px solid @base0D;
+}
+
+.notification-action:hover {
+  background: @base01;
+  color: @base05;
+}
+
+.notification-action:active {
+  background: @base0F;
+  color: @base05;
+}
+
+.close-button {
+  color: @base02;
+  background: @base08;
+}
+
+.close-button:hover {
+  background: lighter(@base08);
+  color: lighter(@base02);
+}
+
+.close-button:active {
+  background: @base08;
+  color: @base00;
+}
+
+.notification-content {
+  background: @base00;
+  border: 1px solid @base0D;
+}
+
+.floating-notifications.background .notification-row .notification-background {
+  background: transparent;
+  color: @base05;
+}
+
+.notification-group .notification-group-buttons,
+.notification-group .notification-group-headers {
+  color: @base05;
+}
+
+.notification-group .notification-group-headers .notification-group-icon {
+  color: @base05;
+}
+
+.notification-group .notification-group-headers .notification-group-header {
+  color: @base05;
+}
+
+.notification-group.collapsed .notification-row .notification {
+  background: @base01;
+}
+
+.notification-group.collapsed:hover
+  .notification-row:not(:only-child)
+  .notification {
+  background: @base01;
+}
+
+.control-center {
+  background: @base00;
+  border: 1px solid @base0D;
+  color: @base05;
+}
+
+.control-center .notification-row .notification-background {
+  background: @base00;
+  color: @base05;
+}
+
+.control-center .notification-row .notification-background:hover {
+  background: @base00;
+  color: @base05;
+}
+
+.control-center .notification-row .notification-background:active {
+  background: @base0F;
+  color: @base05;
+}
+
+.widget-title {
+  color: @base05;
+  margin: 0.5rem;
+}
+
+.widget-title > button {
+  background: @base01;
+  border: 1px solid @base0D;
+  color: @base05;
+}
+
+.widget-title > button:hover {
+  background: @base01;
+}
+
+.widget-dnd {
+  color: @base05;
+}
+
+.widget-dnd > switch {
+  background: @base01;
+  border: 1px solid @base0D;
+}
+
+.widget-dnd > switch:hover {
+  background: @base01;
+}
+
+.widget-dnd > switch:checked {
+  background: @base0F;
+}
+
+.widget-dnd > switch slider {
+  background: @base06;
+}
+
+.widget-mpris {
+  color: @base05;
+}
+
+.widget-mpris .widget-mpris-player {
+  background: @base01;
+  border: 1px solid @base0D;
+}
+
+.widget-mpris .widget-mpris-player button:hover {
+  background: @base01;
+}
+
+.widget-mpris .widget-mpris-player > box > button {
+  border: 1px solid @base0D;
+}
+
+.widget-mpris .widget-mpris-player > box > button:hover {
+  background: @base01;
+  border: 1px solid @base0D;
+}
