@@ -30,19 +30,22 @@ The script will back up your existing configuration files to `~/.config/filename
 
 | Keybinding            | Description                                     |
 | :-------------------- | :---------------------------------------------- |
+| `Super + Shift + Return`   | Open terminal                              |
 | `Super + Shift + C`   | Kill active window                              |
 | `Super + Shift + Q`   | Exit Hyprland                                   |
 | `Super + R`           | Open file manager (`ranger`)                    |
 | `Super + F`           | Toggle floating                                 |
 | `Super + D`           | Open application menu (`fuzzel`)                |
-| `Super + P`           | Pin window                                      |
+| `Super + Shift + P` | Pin window                                      |
 | `Super + J`           | Toggle split                                    |
 | `Super + E`           | Open emoji picker (`bemoji`)                    |
 | `Super + V`           | Open clipboard history (`cliphist`)             |
-| `Super + B`           | Toggle Waybar style                             |
+| `Super + B`           | Reload Waybar config                             |
+| `Super + Shift + B` | Toggle Waybar visibility                             |
 | `Super + L`           | Lock screen (`hyprlock`)                        |
-| `Super + N`           | Toggle notifications (`swaync`)                 |
-| `Print`               | Take a screenshot (`grimblast`)                 |
+| `Super + P`         | Launch hyprpicker                                      |
+| `Super + N`           | Open notification center (`swaync`)                 |
+| `Print`               | Take screenshot (`grimblast`)                 |
 | `Super + (←,→,↑,↓)`   | Move focus                                      |
 | `Super + Shift + (←,→,↑,↓)` | Swap window                               |
 | `Super + Ctrl + (←,→,↑,↓)`  | Resize window                             |
