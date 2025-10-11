@@ -13,8 +13,8 @@ A collection of my personal dotfiles for a consistent and beautiful Gruvbox-them
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/df3/dotfiles2.git
-    cd dotfiles2
+    git clone https://github.com/Andrey0189/arch-dotfiles
+    cd arch-dotfiles
     ```
 2.  Run the installation script:
     ```bash
