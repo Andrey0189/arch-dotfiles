@@ -16,3 +16,7 @@ style = "bold purple"
 [username]
 format = "[$user]($style)@"
 show_always = true
+
+# Battery check takes ~66ms
+[battery]
+disabled = true
