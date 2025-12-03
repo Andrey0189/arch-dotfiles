@@ -1,1 +1,2 @@
 .stow-local-ignore
+.config/tmux/plugins
