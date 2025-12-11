@@ -32,7 +32,7 @@ background = "#504945"
 text = "#d5c4a1"
 
 [font]
-builtin_box_drawing = false
+builtin_box_drawing = true
 size = 13
 
 [font.normal]
