@@ -1,32 +1,39 @@
 {
-  "control-center-layer": "overlay",
-  "control-center-radius": 1,
   "cssPriority": "user",
   "fit-to-screen": true,
+
   "layer": "overlay",
+  "control-center-layer": "overlay",
   "layer-shell": true,
+
   "notification-body-image-height": 100,
   "notification-body-image-width": 200,
   "notification-icon-size": 64,
+
   "positionX": "right",
   "positionY": "top",
+
   "timeout": 10,
-  "timeout-critical": 0,
   "timeout-low": 5,
+  "timeout-critical": 0,
+
   "widget-config": {
     "dnd": {
       "text": "Do Not Disturb"
     },
+
     "mpris": {
       "blur": true,
       "image-size": 96
     },
+
     "title": {
       "button-text": "Clear All",
       "clear-all-button": true,
       "text": "Notifications"
     }
   },
+
   "widgets": [
     "inhibitors",
     "dnd",
