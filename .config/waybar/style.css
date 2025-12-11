@@ -6,6 +6,8 @@
   font-size: 16px;
   min-height: 0;
   color: #ebdbb2;
+  margin: 0;
+  padding: 0;
 }
 
 window#waybar {
@@ -14,9 +16,9 @@ window#waybar {
 
 /* Workspace Buttons */
 #workspaces button label{
-  color: inherit;
-  padding: 0 10px;
+  padding: 0 20px;
 }
+
 #workspaces button.active label {
   color: #1d2021;
 }
@@ -31,23 +33,19 @@ window#waybar {
 
 #clock, #battery, #pulseaudio, #tray, #language, #weather {
   padding: 0 10px;
-  margin: 0 10px;
 }
 
 #language {
-  margin: 0;
   color: #d79921;
   border-bottom: 5px solid #d79921;
 }
 
 #custom-weather {
-  margin: 0;
   color: #98971a;
   border-bottom: 5px solid #98971a
 }
 
 #pulseaudio {
-  margin: 0;
   color: #689d6a;
   border-bottom: 5px solid #689d6a;
 }
@@ -59,19 +57,16 @@ window#waybar {
 }
 
 #battery {
-  margin: 0;
   color: #458588;
   border-bottom: 5px solid #458588;
 }
 
 #clock {
-  margin: 0;
   color: #b16286;
   border-bottom: 5px solid #b16286;
 }
 
 #tray {
-  margin: 0;
   color: #d65d0e;
   border-bottom: 5px solid #d65d0e;
 }
