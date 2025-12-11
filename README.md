@@ -76,7 +76,6 @@ The script will back up your existing configuration files to `~/.config/filename
 - `.zshrc` configured for an enhanced interactive experience.
 - `autocd`, `correct` options for convenience.
 - Useful aliases like `ls='eza --icons always'` and `v='nvim'`.
-- FZF integration with `fd` for fast file and directory searching.
 
 ### Starship Prompt 🚀
 
@@ -113,7 +112,6 @@ The script will back up your existing configuration files to `~/.config/filename
 - 📨 **[Swaync](https://github.com/ErikReider/SwayNotificationCenter):** A simple notification daemon for Wayland, themed with Gruvbox.
 - 🔒 **[Hyprlock](https://hyprland.org/docs/ecosystem/hyprlock/):** The official screen locker for Hyprland, showing a blurred background and the current time.
 - 📁 **[Ranger](https://github.com/ranger/ranger):** A console file manager with VI key bindings and image previews.
-- 💤 **[Lazygit](https://github.com/jesseduffield/lazygit):** A simple terminal UI for git commands.
 - 📖 **[Zathura](https://pwmt.org/projects/zathura/):** A highly customizable document viewer with VI-like keybindings and a Gruvbox theme.
 - 🦇 **[Bat](https://github.com/sharkdp/bat):** A `cat(1)` clone with wings, using the `gruvbox-dark` theme for syntax highlighting.
 
